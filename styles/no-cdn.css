@@ -1,0 +1,8 @@
+﻿@charset "UTF-8";
+/* -*- coding: UTF-8, tab-width: 2 -*- */
+
+/* Hover fix for the main menu */
+nav.navbar-nav .dropdown:hover > ul.dropdown-menu { display: block; }
+
+/* Raise main menu dropdowns */
+nav.navbar-nav > li > .dropdown-menu { margin-top: -2.5ex; }
